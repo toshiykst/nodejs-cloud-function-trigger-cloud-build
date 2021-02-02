@@ -1,8 +1,10 @@
 {
   "name": "nodejs-cloud-function-trigger-cloud-build",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc --project ."
+  },
   "devDependencies": {
     "typescript": "^4.1.3"
   }
