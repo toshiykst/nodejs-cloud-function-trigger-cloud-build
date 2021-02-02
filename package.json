@@ -1,0 +1,6 @@
+{
+  "name": "nodejs-cloud-function-trigger-cloud-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
