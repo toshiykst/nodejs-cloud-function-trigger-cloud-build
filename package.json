@@ -6,6 +6,9 @@
     "build": "tsc --project .",
     "start": "yarn build && functions-framework --target=triggerCloudBuild --source dist"
   },
+  "dependencies": {
+    "@google-cloud/cloudbuild": "^2.0.6"
+  },
   "devDependencies": {
     "@google-cloud/functions-framework": "^1.7.1",
     "@types/express": "^4.17.11",
